@@ -7,10 +7,11 @@ As a traveler I want to be able to track my withdrawals and deposits with or wit
 2. When the user reestablishes an internet connection the deposits or expenses added while they were offline are added to their transaction history and their totals are updated.
 
 ## Technologies Used
-JavaScript, Node.js, Express.js, MongoDB, MongoDB Atlas, Mongoose, Heroku, Git
+JavaScript, Node.js, Express.js, MongoDB, MongoDB Atlas, Mongoose, Heroku, Git, Webpack PWA Manifest, Morgan, HTML, CSS.
 
 ## Challenges Faced
 The service worker was a bear. I had massive help from the instructional team. Thank you! 
+
 I had trouble setting up my Atlas account correctly, Heroku deployment goes surprisingly well after fixing that! But to be fair, the Atlas code to connect the database to the Cluster DOES NOT include space for the `<dbname>`. You must provide that to make it work.
 
 ## Deployed Website link
